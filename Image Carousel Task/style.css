@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right,#485563,#29323c);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container{
+    height: 400px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+button{
+    height: 50px;
+    padding: 5px;
+    background-color: #29323c;
+    color: white;
+    margin: 5px;
+    border: none;
+}
+button:hover{
+    background-color: #19222d;
+}

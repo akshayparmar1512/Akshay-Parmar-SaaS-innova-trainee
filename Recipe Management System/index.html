@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Recipe Management</h1>
+    <div class="main-container">
+        <div class="form-container">
+            <h2>Add Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe">Enter Recipe</label>
+                <input type="text" id="recipe" name="recipe">
+
+                <label for="ingredient">Ingredients </label>
+                <input type="text" id="ingredient" name="ingredient">
+
+                <label for="category">Select category</label>
+                <select name="category" id="category">
+
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Dessert">Dessert</option>
+
+                </select>
+                <button type="submit">Add Recipe</button>
+
+
+            </form>
+
+        </div>
+        <div class="table-container">
+            <div class="searching-part">
+                <input type="text" placeholder="Search" id="search-input">
+
+                <select id="category-filter">
+                    <option>All</option>
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                    <option>Snacks</option>
+                    <option>Dessert</option>
+                </select>
+            </div>
+
+            <h2>Recipes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Recipe Name</th>
+                        <th>Ingredients</th>
+                        <th>Category</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                 
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

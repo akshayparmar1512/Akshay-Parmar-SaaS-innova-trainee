@@ -1,0 +1,39 @@
+body{
+    background-color: #739C77;
+}
+h2 {
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+}
+
+.todolist-container{
+    width: 350px;
+    margin: 20px auto;
+}
+
+ul {
+
+    list-style-type: none;
+    
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: #A96036;
+} 

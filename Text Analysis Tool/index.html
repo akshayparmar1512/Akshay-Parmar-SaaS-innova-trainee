@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Analysis Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Text Analysis Tool</h1>
+    <div class="input-box">
+      <label for="inputtext">Enter The Text:</label>
+      <input type="text" id="inputtext" />
+      <button id="analysis-btn">Analyze</button>
+    </div>
+
+    <div class="main-container">
+      <div class="results-box">
+        <h2>Character Count</h2>
+        <h3 id="character-count-result"></h3>
+      </div>
+      <div class="results-box">
+        <h2>Word Count</h2>
+        <h3 id="word-count-result"></h3>
+      </div>
+      <div class="results-box">
+        <h2>Word Frequency</h2>
+        <h3 id="word-frequency-result"></h3>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

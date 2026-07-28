@@ -1,0 +1,62 @@
+body{
+    background-color: lightcyan;
+}
+h1{
+    text-align: center;
+}
+.calc-container {
+    width:400px;
+    margin:50px auto;
+    padding:25px;
+    border:1px solid black; 
+
+}
+
+.btn-container {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+#num-input1 {
+    width: 130px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#num-input2 {
+    width: 130px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+h3 {
+    height: 50px;
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+}
+
+#show-operation {
+    height: 50px;
+    width: 70px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: #a8dadc;
+}
+h1{
+    text-align: center;
+}
+.main-container{
+    width:500px;
+    margin:50px auto;
+    padding:25px;
+    border:1px solid black; 
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-bottom: 10px;
+}
+
+.questions{
+    margin-bottom:20px;
+}
+
+.hidden{
+    display:none;
+}
+button{
+    padding: 10px;
+}

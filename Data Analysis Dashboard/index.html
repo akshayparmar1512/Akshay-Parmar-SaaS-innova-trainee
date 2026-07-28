@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analysis Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Data Analysis Dashboard</h1>
+    <select name="filter" id="category-filter">
+
+    </select>
+
+    <select name="filter" id="month-filter">
+
+    </select>
+  </header>
+  <h2>Dashboard Summary</h2>
+  <div class="card-container">
+    
+    <div class="card">
+      <h2>Total Revenue</h2>
+      <p id="totalrevenue"></p>
+    </div>
+    <div class="card">
+      <h2>Average Revenue</h2>
+      <p id="avg-revenue"></p>
+    </div>
+    <div class="card">
+      <h2>Highest Revenue Product</h2>
+      <h4 id="highestProduct"></h4>
+      <p id="highestRevenue"></p>
+    </div>
+    <div class="card">
+      <h2>Lowest Revenue Product</h2>
+      <h4 id="lowestProduct"></h4>
+      <p id="lowestRevenue"></p>
+    </div>
+  </div>
+  <div class="chart-container">
+    <div class="chart-box">
+      <canvas id="bar-chart"></canvas>
+    </div>
+    <div class="chart-box"> <canvas id="line-chart"></canvas></div>
+
+  </div>
+
+  <div class="table-container">
+    <table>
+      <caption>Sales Data</caption>
+      <thead>
+        <th>Product </th>
+        <th>Category </th>
+        <th>Price </th>
+        <th>Quantity </th>
+        <th>Revenue </th>
+        <th>Month</th>
+      </thead>
+      <tbody id="table-body">
+
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body{
+  background-color: indianred;
+}
+h2{
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+#user-input{
+  padding: 10px;
+  width: 200px;
+  background-color: bisque;
+  font-size: 18px;
+  
+}
+
+#add-btn{
+  padding: 10px;
+  width: 70px;
+  background-color: lightseagreen;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.status{
+  padding: 15px;
+  background-color: lightblue;
+}
+
+.todolist-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: beige;
+}
