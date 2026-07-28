@@ -1,0 +1,8 @@
+.image-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC8z7DoIRqklUYo4pEDmlTxKIyZ9myc2Z8MC73goKWOw&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

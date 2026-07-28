@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo span {
+    color: red;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#signup-btn {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}

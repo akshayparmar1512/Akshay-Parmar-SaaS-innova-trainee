@@ -1,0 +1,12 @@
+.btn{
+    padding: 10px;
+    box-shadow: 20px 20px 50px 10px rgb(238, 204, 210) inset;
+   border-radius: 10px;
+   border: 0.5px;
+   transition-property: all;
+   transition-duration: 0.5ms;
+   transition-timing-function: linear;
+}
+.btn:hover{
+    background-color: rgb(18, 1, 3);
+}

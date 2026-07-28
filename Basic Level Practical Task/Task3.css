@@ -1,0 +1,47 @@
+.box1 {
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box2 {
+    height: 200px;
+    background-color: gray;
+}
+
+.box3 {
+    height: 200px;
+    background-color: lightsteelblue;
+}
+
+.box4 {
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.box5 {
+    height: 200px;
+    background-color: palevioletred;
+}
+
+.box6 {
+    height: 200px;
+    background-color: purple;
+}
+
+.box7 {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.box8 {
+    height: 200px;
+    background-color: lightsalmon;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,4fr));
+    gap: 10px;
+}
+
