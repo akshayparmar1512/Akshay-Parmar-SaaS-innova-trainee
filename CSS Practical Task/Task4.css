@@ -1,0 +1,30 @@
+.sec1{
+    height: 200px;
+   background-image: linear-gradient(to right,#97AB25,#AC8D25);
+
+}
+
+.sec2{
+    height: 200px;
+   background-image: linear-gradient(to left,#F58D25,#F2F525);
+}
+
+.sec3{
+    height: 200px;
+   background-image: linear-gradient(to top,#25F5E0,#25F575);
+}
+
+.sec4{
+    height: 200px;
+   background-image: linear-gradient(to bottom,#061301,#2D8606);
+}
+
+.bgimg{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-image: url(images/image1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}

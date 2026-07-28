@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, blue, purple);
+    transition: all,0.5s;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: linear-gradient(to right, red, orange);
+    transform: scale(2);
+}
+.apple{
+    width: 28px;
+    height: 28px;
+}
+
+.btn2{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+   
+}
+
+.btn2:hover{
+    background-color: #7d7070;
+     transform: scale(2);
+}
+

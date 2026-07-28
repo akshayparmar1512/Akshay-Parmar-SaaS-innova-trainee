@@ -1,0 +1,19 @@
+.main-board{
+    height: 600px;
+    width: 600px;
+    border: 0.5px solid black;
+}
+
+.box1{
+    height: 75px;
+    width: 75px;
+    background-color: #f0d9b5;
+    float: left;
+}
+
+.box2{
+    height: 75px;
+    width: 75px;
+    background-color:#b58863;
+    float: left;
+}

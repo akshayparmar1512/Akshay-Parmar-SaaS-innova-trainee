@@ -1,0 +1,41 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: relative;
+    top: 2px;
+    
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: absolute;
+    top: 500px;
+    right: 50px;
+   
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: fixed;
+    top: 200px;
+    right: 200px;
+}
+
+.box4{
+
+    height: 30px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    
+}
+
