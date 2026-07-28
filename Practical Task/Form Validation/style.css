@@ -1,0 +1,43 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #ef8354;
+     margin: 0;
+     padding: 20px;
+ }
+
+ form {
+     width: 350px;
+     margin: 40px auto;
+     background-color: #4f5d75;
+     padding: 20px;
+ }
+
+ h2 {
+     text-align: center;
+     color: #333;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"],
+ select {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     margin-bottom: 15px;
+     border: 1px solid black;
+     box-sizing: border-box;
+ }
+
+ input[type="radio"],
+ input[type="checkbox"] {
+     margin-right: 5px;
+     margin-top: 10px;
+ }
+
+ button {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     font-size: 16px;
+ }

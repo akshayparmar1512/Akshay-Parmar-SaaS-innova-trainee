@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HtML Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Registration Form</h2>
+
+      <label for="name">Full Name</label><br />
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter Full Name"
+        required
+      /><br /><br />
+
+      <label for="email">Email</label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter Email"
+        required
+      /><br /><br />
+
+      <label for="password">Password</label><br />
+      <input
+        type="password"
+        id="password"
+        placeholder="Enter Password"
+        minlength="8"
+        required
+      /><br /><br />
+
+      <label for="confirmPassword">Confirm Password</label><br />
+      <input
+        type="password"
+        id="confirmPassword"
+        placeholder="Confirm Password"
+        minlength="8"
+        required
+      /><br /><br />
+
+      <label>Gender</label><br />
+
+      <input type="radio" id="male" name="gender" required />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" />
+      <label for="other">Other</label>
+
+      <br /><br />
+
+      <label>Hobbies</label><br />
+
+      <input type="checkbox" id="reading" />
+      <label for="reading">Reading</label>
+
+      <input type="checkbox" id="coding" />
+      <label for="coding">Coding</label>
+
+      <input type="checkbox" id="gaming" />
+      <label for="gaming">Gaming</label>
+
+      <br /><br />
+
+      <label for="country">Country</label><br />
+      <select id="country" required>
+        <option value="">Select Country</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>Canada</option>
+      </select>
+
+      <br /><br />
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

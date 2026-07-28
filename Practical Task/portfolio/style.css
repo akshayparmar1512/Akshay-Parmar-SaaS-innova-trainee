@@ -1,0 +1,264 @@
+body {
+    background-color: #f7f8fc;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    padding: 18px 10%;
+    background-color: #003459;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.home {
+    min-height: 90vh;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #780206, #061161);
+}
+
+.home-content {
+    max-width: 750px;
+}
+
+.home h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.home h1 span {
+    color: #ffd166;
+}
+
+.home h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 26px;
+    background-color: #ffd166;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #3a506b;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: white;
+}
+
+.about-content {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: auto;
+    padding: 28px;
+    background-color: #f7f8fc;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.skills {
+    background-color: #f7f8fc;
+    min-height: 90vh;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #003459;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2ff;
+}
+
+tr:hover {
+    background-color: #e9e7ff;
+}
+
+.projects {
+    background-color: white;
+    min-height: 90vh;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.project-card {
+    width: 340px;
+    padding: 28px;
+    background-color: #f7f8fc;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h3 {
+    color: #3a506b;
+    /* margin-bottom: 14px; */
+    font-size: 22px;
+}
+
+.project-card p {
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 9px 18px;
+    background-color: #003459;
+    color: white;
+    text-decoration: none;
+    border-radius: 22px;
+}
+
+.contact {
+    background-color: #f7f8fc;
+    min-height: 90vh;
+}
+
+form {
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+
+textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 25px;
+    background-color: #2f2f3d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+footer {
+    padding: 18px;
+    background-color: #2f2f3d;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    header h2 {
+        font-size: 23px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 4px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home h3 {
+        font-size: 19px;
+    }
+}
