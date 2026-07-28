@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="username" /> <br /><br />
+
+      <label for="password">password:</label>
+      <input type="password" id="password" name="userpassword" /> <br /><br />
+
+      <label for="cnfrmpassword">Confirm Password:</label>
+      <input
+        type="password"
+        id="cnfrmpassword"
+        name="confirmpassword"
+      /><br /><br />
+
+      <label for="gender">Gender:</label>
+      <label for="male">male</label>
+      <input type="radio" id="male" name="usergender" value="male" />
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="usergender" value="female" /><br><br>
+
+      <label for="hobbies">Hobbies:</label><br>
+      <input type="checkbox" id="reading" name="hobby"  value="reading">
+      <label for="reading">Reading</label>
+
+      <input type="checkbox" id="writing" name="hobby"  value="writing">
+      <label for="writing">writing</label>
+
+      <input type="checkbox" id="coding" name="hobby"  value="coding">
+      <label for="coding">coding</label>
+
+      <input type="checkbox" id="playcricket" name="hobby"  value="playcricket">
+      <label for="playcricket">play cricket</label><br><br>
+
+     <label for="country">Select Country:</label>
+     <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Dubai">Dubai</option>
+     </select>
+     <br><br>
+     <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
